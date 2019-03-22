@@ -37,7 +37,7 @@ public class LeetCode20_ValidParentheses {
                 pre = stack.pop();
                 stack.push(pre);
             } else {
-                pre = 'a';
+                pre = '\0';
             }
             if (isSameTypeBracket(pre, cur)) {
                 stack.pop();
