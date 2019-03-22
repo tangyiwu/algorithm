@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="271f47b5-f87e-4773-8a65-c98ed24eac38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/interview/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/interview/Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/interview/Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/hard/LeetCode23_MergeKSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/hard/Leetcode10_RegularExpressionMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/medium/LeetCode2_AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/com/algorithm/leetcode/easy/LeetCode20_ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/com/algorithm/leetcode/easy/LeetCode20_ValidParentheses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/leetcode/easy/LeetCode20_ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/easy/LeetCode20_ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/leetcode/hard/Leetcode10_RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/hard/Leetcode10_RegularExpressionMatching.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +25,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/algorithm/interview/Solution2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="44">
+              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/algorithm/leetcode/hard/Leetcode10_RegularExpressionMatching.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="61" column="95" selection-start-line="61" selection-start-column="95" selection-end-line="61" selection-end-column="95" />
             </state>
           </provider>
         </entry>
@@ -126,12 +127,12 @@
         <option value="$PROJECT_DIR$/src/com/algorithm/leetcode/medium/LeetCode230_KthSmallest.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/leetcode/medium/LeetCode236_LowestCommonAncestor.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/leetcode/medium/LeetCode2_AddTwoNumbers.java" />
-        <option value="$PROJECT_DIR$/src/com/algorithm/leetcode/hard/Leetcode10_RegularExpressionMatching.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/leetcode/easy/LeetCode20_ValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/leetcode/hard/LeetCode23_MergeKSortedLists.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/interview/Solution.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/interview/Solution3.java" />
         <option value="$PROJECT_DIR$/src/com/algorithm/interview/Solution2.java" />
+        <option value="$PROJECT_DIR$/src/com/algorithm/leetcode/hard/Leetcode10_RegularExpressionMatching.java" />
       </list>
     </option>
   </component>
@@ -196,7 +197,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="hard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
@@ -225,7 +235,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553222542097" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553224400890" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -241,13 +251,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution2">
-    <configuration name="LeetCode20_ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.leetcode.easy.LeetCode20_ValidParentheses" />
+  <component name="RunManager" selected="Application.Leetcode10_RegularExpressionMatching">
+    <configuration name="LeetCode23_MergeKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.leetcode.hard.LeetCode23_MergeKSortedLists" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.leetcode.easy.*" />
+          <option name="PATTERN" value="com.algorithm.leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -255,8 +265,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode23_MergeKSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.leetcode.hard.LeetCode23_MergeKSortedLists" />
+    <configuration name="Leetcode10_RegularExpressionMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.leetcode.hard.Leetcode10_RegularExpressionMatching" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -308,19 +318,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LeetCode20_ValidParentheses" />
       <item itemvalue="Application.LeetCode23_MergeKSortedLists" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.Solution3" />
+      <item itemvalue="Application.Leetcode10_RegularExpressionMatching" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode10_RegularExpressionMatching" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution3" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.LeetCode23_MergeKSortedLists" />
-        <item itemvalue="Application.LeetCode20_ValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -375,12 +385,12 @@
       <workItem from="1552991203426" duration="1019000" />
       <workItem from="1552996620058" duration="4724000" />
       <workItem from="1553158598695" duration="5544000" />
-      <workItem from="1553170032417" duration="16140000" />
+      <workItem from="1553170032417" duration="17906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299265000" />
+    <option name="totallyTimeSpent" value="301031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -886,13 +896,6 @@ sb;</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/algorithm/leetcode/hard/Leetcode10_RegularExpressionMatching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/algorithm/string/StringTransform.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -944,8 +947,15 @@ sb;</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/algorithm/interview/Solution2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        <state relative-caret-position="44">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/algorithm/leetcode/hard/Leetcode10_RegularExpressionMatching.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="61" column="95" selection-start-line="61" selection-start-column="95" selection-end-line="61" selection-end-column="95" />
         </state>
       </provider>
     </entry>
