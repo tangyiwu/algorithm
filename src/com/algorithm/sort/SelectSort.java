@@ -3,19 +3,21 @@ package com.algorithm.sort;
 import com.algorithm.utils.ArrayUtil;
 
 /**
- * 插入排序
- * 时间复杂度 O(n2)
+ * 选择排序
  */
-public class InsertSort {
+public class SelectSort {
     public static void sort(int[] a) {
-        int tmp;
         for (int i = 0; i < a.length - 1; i++) {
-            for (int j = i + 1; j > 0; j--) {
-                if (a[j] < a[j - 1]) {
-                    tmp = a[j];
-                    a[j] = a[j - 1];
-                    a[j - 1] = tmp;
+            int minIndex = i;
+            for (int j = i + 1; j < a.length; j++) {
+                if (a[j] < a[minIndex]) {
+                    minIndex = j;
                 }
+            }
+            if (minIndex != i) {
+                int tmp = a[i];
+                a[i] = a[minIndex];
+                a[minIndex] = tmp;
             }
         }
     }
