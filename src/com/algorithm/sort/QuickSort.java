@@ -4,30 +4,39 @@ package com.algorithm.sort;
  * 快速排序
  */
 public class QuickSort {
-    public static void sort(int[] a, int left, int right) {
-        if (left > right) {
-            return;
+    public void sort(int[] a, int left, int right) {
+        if (left < right) {
+            int m = partition(a, left, right);
+            sort(a, left, m - 1);
+            sort(a, m + 1, right);
         }
+    }
+
+    private int partition(int[] a, int left, int right) {
         int cursor = a[left];
-        int i = left;
+        int i = left + 1;
         int j = right;
-        while (i != j) {
-            while (a[j] >= cursor && i < j) {
-                j--;
-            }
-            while (a[i] <= cursor && i < j) {
+        while (true) {
+            while (i <= j && a[i] <= cursor) {
                 i++;
             }
-            if (i < j) {
-                int temp = a[i];
-                a[i] = a[j];
-                a[j] = temp;
+            while (i <= j && a[j] >= cursor) {
+                j--;
             }
+            if (i >= j) {
+                break;
+            }
+            swap(a, i, j);
         }
-        a[left] = a[i];
-        a[i] = cursor;
-        sort(a, left, i - 1);
-        sort(a, i + 1, right);
+        a[left] = a[j];
+        a[j] = cursor;
+        return j;
+    }
+
+    private void swap(int[] a, int i, int j) {
+        int tmp = a[i];
+        a[i] = a[j];
+        a[j] = tmp;
     }
 
     public static void main(String[] args) {
