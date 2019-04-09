@@ -32,7 +32,7 @@ public class HeapSort {
             if (left < heapSize && comparator.compare(a[iMax], a[left]) < 0) {
                 iMax = left;
             }
-            if (right < a.length && comparator.compare(a[iMax], a[right]) < 0) {
+            if (right < heapSize && comparator.compare(a[iMax], a[right]) < 0) {
                 iMax = right;
             }
             if (iMax != index) {
@@ -48,6 +48,10 @@ public class HeapSort {
         int heapSize = a.length;
         for (int i = heapSize / 2 - 1; i >= 0; i--) {
             heapify(a, i, heapSize);
+        }
+        for (int i = heapSize - 1; i >= 0; i--) {
+            swap(a, 0, i);
+            heapify(a, 0, i);
         }
     }
 
