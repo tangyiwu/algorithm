@@ -4,7 +4,7 @@ import com.algorithm.utils.ArrayUtil;
 
 /**
  * 冒泡排序
- * 时间复杂度 O(n2)
+ * 时间复杂度 O(n^2)
  */
 public class BubbleSort {
     public static void sort(int[] nums) {

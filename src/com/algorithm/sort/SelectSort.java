@@ -4,6 +4,7 @@ import com.algorithm.utils.ArrayUtil;
 
 /**
  * 选择排序
+ * 时间复杂度 O(n^2)
  */
 public class SelectSort {
     public static void sort(int[] a) {
@@ -15,9 +16,7 @@ public class SelectSort {
                 }
             }
             if (minIndex != i) {
-                int tmp = a[i];
-                a[i] = a[minIndex];
-                a[minIndex] = tmp;
+                SortUtil.swap(a, minIndex, i);
             }
         }
     }

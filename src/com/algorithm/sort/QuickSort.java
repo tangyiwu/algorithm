@@ -1,7 +1,10 @@
 package com.algorithm.sort;
 
+import com.algorithm.utils.ArrayUtil;
+
 /**
  * 快速排序
+ * 时间复杂度：O(nlogn)
  */
 public class QuickSort {
     public void sort(int[] a, int left, int right) {
@@ -41,8 +44,9 @@ public class QuickSort {
 
     public static void main(String[] args) {
         int[] a = SortUtil.getArrayDemo();
+        ArrayUtil.printArray(a);
         QuickSort quickSort = new QuickSort();
         quickSort.sort(a, 0, a.length - 1);
-        SortUtil.printArray(a);
+        ArrayUtil.printArray(a);
     }
 }
