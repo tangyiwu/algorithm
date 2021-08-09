@@ -11,14 +11,16 @@ public class BubbleSort {
         if (nums == null || nums.length <= 0) {
             return;
         }
-        int tmp;
+        boolean flag = false;
         for (int i = 0; i < nums.length - 1; i++) {
-            for (int j = nums.length - 1; j > i; j--) {
-                if (nums[j] < nums[j - 1]) {
-                    tmp = nums[j];
-                    nums[j] = nums[j - 1];
-                    nums[j - 1] = tmp;
+            for (int j = 0; j < nums.length - 1 - i; j++) {
+                if (nums[j] > nums[j + 1]) {
+                    SortUtil.swap(nums, j, j + 1);
+                    flag = true;
                 }
+            }
+            if (!flag) {
+                break;
             }
         }
     }
