@@ -2,11 +2,13 @@ package com.algorithm.leetcode.easy;
 
 public class LeetCode136_SingleNumber {
     public int singleNumber(int[] nums) {
-        int xOR = nums[0];
-        for (int i = 1; i < nums.length; i++) {
-            xOR ^= nums[i];
+        int xor = 0;
+        int i = 0;
+        while (i < nums.length) {
+            xor = xor ^ nums[i];
+            i++;
         }
-        return xOR;
+        return xor;
     }
 
     public static void main(String[] args) {
