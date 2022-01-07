@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8e85a6-7a6d-4463-a5ed-d16bc6ed3fd3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/hard/LeetCode4_Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/medium/LeetCode15_Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/medium/LeetCode15_Solution3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/medium/LeetCode15_ThreeSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/medium/LeetCode75_Solution2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/medium/LeetCode75_SortColors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/interview/FindMinStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/java/JavaInitilizeOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/hard/LeetCode4_Solution4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/hard/LeetCode76_MinWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/hard/LeetCode84_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/medium/LeetCode114_Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/medium/LeetCode142_DetectCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/medium/LeetCode148_SortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/leetcode/medium/LeetCode337_HouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/model/BitMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/com/algorithm/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/com/algorithm/sort/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/sort/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,13 +45,13 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode15_Solution3">
-    <configuration name="LeetCode15_Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.leetcode.medium.LeetCode15_Solution3" />
+  <component name="RunManager" selected="Application.FindMinStep">
+    <configuration name="BitMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.model.BitMap" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.leetcode.medium.*" />
+          <option name="PATTERN" value="com.algorithm.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -53,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode4_Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.leetcode.hard.LeetCode4_Solution2" />
+    <configuration name="FindMinStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.interview.FindMinStep" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.leetcode.hard.*" />
+          <option name="PATTERN" value="com.algorithm.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,34 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode4_Solution3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.leetcode.hard.LeetCode4_Solution3" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.leetcode.hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeetCode75_SortColors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.leetcode.medium.LeetCode75_SortColors" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.leetcode.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.sort.SelectSort" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.sort.HeapSort" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
@@ -105,13 +85,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaInitilizeOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.java.JavaInitilizeOrder" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode76_MinWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.leetcode.hard.LeetCode76_MinWindow" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.leetcode.hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeetCode15_Solution3" />
-        <item itemvalue="Application.LeetCode75_SortColors" />
-        <item itemvalue="Application.LeetCode4_Solution3" />
-        <item itemvalue="Application.LeetCode4_Solution2" />
-        <item itemvalue="Application.SelectSort" />
+        <item itemvalue="Application.FindMinStep" />
+        <item itemvalue="Application.HeapSort" />
+        <item itemvalue="Application.JavaInitilizeOrder" />
+        <item itemvalue="Application.BitMap" />
+        <item itemvalue="Application.LeetCode76_MinWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -141,65 +147,64 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="727" y="-988" key="#com.intellij.ide.util.MemberChooser" timestamp="1628738386649">
+    <state x="727" y="-988" key="#com.intellij.ide.util.MemberChooser" timestamp="1640764507437">
       <screen x="-366" y="-1415" width="2560" height="1415" />
     </state>
-    <state x="727" y="-988" key="#com.intellij.ide.util.MemberChooser/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1628738386649" />
-    <state width="2518" height="474" key="GridCell.Tab.0.bottom" timestamp="1634534132366">
-      <screen x="-366" y="-1415" width="2560" height="1415" />
-    </state>
-    <state width="2518" height="474" key="GridCell.Tab.0.bottom/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1634534132366" />
-    <state width="2518" height="474" key="GridCell.Tab.0.center" timestamp="1634534132365">
-      <screen x="-366" y="-1415" width="2560" height="1415" />
-    </state>
-    <state width="2518" height="474" key="GridCell.Tab.0.center/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1634534132365" />
-    <state width="2518" height="474" key="GridCell.Tab.0.left" timestamp="1634534132365">
-      <screen x="-366" y="-1415" width="2560" height="1415" />
-    </state>
-    <state width="2518" height="474" key="GridCell.Tab.0.left/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1634534132365" />
-    <state width="2518" height="474" key="GridCell.Tab.0.right" timestamp="1634534132365">
-      <screen x="-366" y="-1415" width="2560" height="1415" />
-    </state>
-    <state width="2518" height="474" key="GridCell.Tab.0.right/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1634534132365" />
-    <state width="2518" height="474" key="GridCell.Tab.1.bottom" timestamp="1634534132367">
-      <screen x="-366" y="-1415" width="2560" height="1415" />
-    </state>
-    <state width="2518" height="474" key="GridCell.Tab.1.bottom/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1634534132367" />
-    <state width="2518" height="474" key="GridCell.Tab.1.center" timestamp="1634534132366">
-      <screen x="-366" y="-1415" width="2560" height="1415" />
-    </state>
-    <state width="2518" height="474" key="GridCell.Tab.1.center/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1634534132366" />
-    <state width="2518" height="474" key="GridCell.Tab.1.left" timestamp="1634534132366">
-      <screen x="-366" y="-1415" width="2560" height="1415" />
-    </state>
-    <state width="2518" height="474" key="GridCell.Tab.1.left/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1634534132366" />
-    <state width="2518" height="474" key="GridCell.Tab.1.right" timestamp="1634534132366">
-      <screen x="-366" y="-1415" width="2560" height="1415" />
-    </state>
-    <state width="2518" height="474" key="GridCell.Tab.1.right/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1634534132366" />
-    <state x="423" y="-1072" key="SettingsEditor" timestamp="1628739103913">
-      <screen x="-366" y="-1415" width="2560" height="1415" />
-    </state>
-    <state x="423" y="-1072" key="SettingsEditor/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1628739103913" />
-    <state x="626" y="280" width="540" height="524" key="StructurePopup" timestamp="1628868935352">
+    <state x="727" y="-988" key="#com.intellij.ide.util.MemberChooser/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1640764507437" />
+    <state width="1750" height="308" key="GridCell.Tab.0.bottom" timestamp="1641545038662">
       <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state x="626" y="280" width="540" height="524" key="StructurePopup/0.25.1792.1038@0.25.1792.1038" timestamp="1628868935352" />
-    <state x="593" y="-879" key="com.intellij.ide.util.TipDialog" timestamp="1634532015340">
-      <screen x="-366" y="-1415" width="2560" height="1415" />
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1641276872649" />
+    <state width="1750" height="308" key="GridCell.Tab.0.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1641545038662" />
+    <state width="1750" height="308" key="GridCell.Tab.0.center" timestamp="1641545038662">
+      <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state x="593" y="-879" key="com.intellij.ide.util.TipDialog/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1634532015340" />
-    <state x="959" y="241" key="com.intellij.ide.util.TipDialog/0.25.1792.1038@0.25.1792.1038" timestamp="1628849836953" />
-    <state x="559" y="187" width="674" height="714" key="find.popup" timestamp="1629273018700">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1641276872648" />
+    <state width="1750" height="308" key="GridCell.Tab.0.center/0.25.1792.1038@0.25.1792.1038" timestamp="1641545038662" />
+    <state width="1750" height="308" key="GridCell.Tab.0.left" timestamp="1641545038662">
+      <screen x="0" y="25" width="1792" height="1038" />
     </state>
-    <state x="559" y="187" width="674" height="714" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1629273018700" />
-    <state x="435" y="-1101" width="958" height="922" key="search.everywhere.popup" timestamp="1634532610471">
-      <screen x="-366" y="-1415" width="2560" height="1415" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1641276872648" />
+    <state width="1750" height="308" key="GridCell.Tab.0.left/0.25.1792.1038@0.25.1792.1038" timestamp="1641545038662" />
+    <state width="1750" height="308" key="GridCell.Tab.0.right" timestamp="1641545038662">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state width="2518" height="423" key="GridCell.Tab.0.right/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1641276872648" />
+    <state width="1750" height="308" key="GridCell.Tab.0.right/0.25.1792.1038@0.25.1792.1038" timestamp="1641545038662" />
+    <state width="1750" height="362" key="GridCell.Tab.1.bottom" timestamp="1641545038660">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state width="2518" height="496" key="GridCell.Tab.1.bottom/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1637561767180" />
+    <state width="1750" height="362" key="GridCell.Tab.1.bottom/0.25.1792.1038@0.25.1792.1038" timestamp="1641545038660" />
+    <state width="1750" height="362" key="GridCell.Tab.1.center" timestamp="1641545038659">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state width="2518" height="496" key="GridCell.Tab.1.center/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1637561767179" />
+    <state width="1750" height="362" key="GridCell.Tab.1.center/0.25.1792.1038@0.25.1792.1038" timestamp="1641545038659" />
+    <state width="1750" height="362" key="GridCell.Tab.1.left" timestamp="1641545038659">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state width="2518" height="496" key="GridCell.Tab.1.left/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1637561767178" />
+    <state width="1750" height="362" key="GridCell.Tab.1.left/0.25.1792.1038@0.25.1792.1038" timestamp="1641545038659" />
+    <state width="1750" height="362" key="GridCell.Tab.1.right" timestamp="1641545038659">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state width="2518" height="496" key="GridCell.Tab.1.right/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1637561767180" />
+    <state width="1750" height="362" key="GridCell.Tab.1.right/0.25.1792.1038@0.25.1792.1038" timestamp="1641545038659" />
+    <state x="626" y="280" width="540" height="524" key="StructurePopup" timestamp="1640782308779">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state x="626" y="280" width="540" height="524" key="StructurePopup/0.25.1792.1038@0.25.1792.1038" timestamp="1640782308779" />
+    <state x="959" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1641556822710">
+      <screen x="0" y="25" width="1792" height="1038" />
+    </state>
+    <state x="593" y="-879" key="com.intellij.ide.util.TipDialog/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1641270734378" />
+    <state x="959" y="241" key="com.intellij.ide.util.TipDialog/0.25.1792.1038@0.25.1792.1038" timestamp="1641556822710" />
+    <state x="561" y="255" width="671" height="677" key="search.everywhere.popup" timestamp="1640782910209">
+      <screen x="0" y="25" width="1792" height="1038" />
     </state>
     <state x="435" y="-1101" width="958" height="922" key="search.everywhere.popup/-366.-1415.2560.1415/0.25.1792.1038@-366.-1415.2560.1415" timestamp="1634532610471" />
-    <state x="561" y="249" width="671" height="730" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1629273056283" />
-    <state x="561" y="255" width="670" height="676" key="search.everywhere.popup/0.25.1792.1038@0.25.1792.1038" timestamp="1628862607456" />
+    <state x="561" y="255" width="671" height="677" key="search.everywhere.popup/0.25.1792.1038@0.25.1792.1038" timestamp="1640782910209" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">

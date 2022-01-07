@@ -17,22 +17,18 @@ public class QuickSort {
 
     private int partition(int[] a, int left, int right) {
         int cursor = a[left];
-        int i = left + 1;
+        int i = left;
         int j = right;
-        while (true) {
-            while (i <= j && a[i] <= cursor) {
-                i++;
-            }
-            while (i <= j && a[j] >= cursor) {
+        while (i < j) {
+            while (i < j && a[j] >= cursor) {
                 j--;
             }
-            if (i >= j) {
-                break;
+            while (i < j && a[i] <= cursor) {
+                i++;
             }
             swap(a, i, j);
         }
-        a[left] = a[j];
-        a[j] = cursor;
+        swap(a, left, i);
         return j;
     }
 
@@ -43,7 +39,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] a = SortUtil.getArrayDemo();
+        int[] a = {-1, 5, 3, 4, 0};
         ArrayUtil.printArray(a);
         QuickSort quickSort = new QuickSort();
         quickSort.sort(a, 0, a.length - 1);
